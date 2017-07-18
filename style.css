@@ -1,0 +1,600 @@
+
+
+.container-fluid {
+	text-align: center;
+	color: white;
+	margin: 0;
+	padding: 0;
+}
+
+
+/*all transition buttons*/
+.welcome_content button:hover, .btn_port:hover,
+ .port_lastbutton button:hover, .touch button:hover{
+	transform: scale(1.5);
+	transition: 1s;
+}
+
+
+
+
+
+
+/*start welcome*/
+
+.welcome {
+	background: #87509c;
+	padding: 20px 0;
+	height: 550px;
+}
+
+.welcome h1{
+	font-weight: bold;
+	font-size: 40px;
+	margin-top: 170px;
+}
+
+.logo{
+	margin-top: 15px;
+}
+
+
+.menu {
+	margin-top: 15px;
+}
+
+.nav.nav-pills.navbar-right li a{
+	color: #5F595D;
+	font-weight: bolder;
+}
+
+.welcome_content button{
+	background: #eb7d4b;
+	border: none;
+	border-bottom: 5px solid #c86a40;
+	font-size: 12px;
+	font-weight: normal;
+	padding: 12px 40px;
+	border-radius: 5px;
+	margin-top: 50px;
+}
+
+
+/*end welcome*/
+
+
+
+
+
+
+
+
+
+
+/*start service*/
+
+
+.service {
+	background: #17c2a4;
+	/*height: 100vh;*/
+}
+
+.service_content {
+	margin-top: 80px;
+}
+
+.service_content h2 {
+	font-weight: bold;
+}
+
+.service_content h2 span {
+	color: #14a58c;
+}
+
+.service_img h4 {
+	font-weight: bold;
+}
+
+.service_img p{
+	margin-top: 20px;
+	font-size: 10px;
+	margin-bottom: 100px;
+}
+
+/*end service*/
+
+
+
+
+
+
+
+/*start team*/
+
+.team {
+	background: #e7f1f8;
+	color: #3c4761;
+	height: 850px;
+
+}
+
+.team_content {
+	margin-top: 80px;
+	margin-bottom: 100px;
+}
+
+.team_content h2 span{
+	color: #c8d9e5;
+}
+.team_img h6:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+
+.team_img h6{
+	color: #55c2e9;
+}
+
+.team_img h4{
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+.team_img p{
+	margin: 30px 0;
+}
+
+.a{
+	margin-left: 30px;
+	/*border: 2px solid black;*/
+}
+
+.team_icon {
+}
+
+.btn_team {
+	background: #bdd1df;
+	border-radius: 50%;
+	border: none;
+}
+
+.btn_team:hover{
+	transform: scale(.8);
+}
+
+/*end team*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*start skills*/
+
+
+.skills {
+	color: #3c4761;
+	padding: 50px 0;
+
+	/*height: 100vh;*/
+}
+
+.skill_content {
+/*	padding: 80px;
+*/}
+
+.skill_content h2{
+	font-weight: bold;
+}
+
+
+/*end skills*/
+
+
+
+
+
+
+
+
+/*start portfolio*/
+
+
+.portfolio {
+	background: #ffdd99;
+	color: #393939;
+	padding: 50px;
+}
+
+.portfolio_content h2 {
+	font-weight: bold;
+}
+
+.portfolio_content h2 span {
+	color: #e5c37f;
+}
+
+.portfolio_content p {
+	margin-bottom: 30px;
+}
+
+
+
+.buttons {
+	margin-bottom: 20px;
+}
+
+.btn_port {
+	background: #ebc985;
+	border: none;
+	border-radius: 2px;
+	padding: 5px 18px;
+}
+
+.btn_port:hover{
+	background: white;
+	cursor: pointer;
+}
+
+.port_img {
+	margin-top: 40px;
+}
+
+.port_img p{
+	margin-top: 20px;
+}
+
+.port_lastbutton button{
+	background: #17c2a4 ;
+	border-radius: 2px;
+	border: none;
+	border-bottom: 5px solid #14a58c;
+	padding: 15px 45px;
+	color: white;
+	margin-top: 40px;
+	font-weight: bold;
+	margin-bottom: 30px;
+}
+
+/*end portfolio*/
+
+
+
+
+
+
+
+/*start testionial*/
+
+.testimonial {
+	background: #d74680;
+	color: white;
+	text-align: center;
+	
+}
+
+.testimonial_content {
+	margin-top: 80px;
+}
+
+.testimonial_content h2 {
+	font-weight: bold;
+}
+
+.testimonial_content h2 span {
+	color: #b73c6d;
+}
+
+.testimonial_content p{
+	margin-bottom: 50px;
+}
+
+
+.test_2 {
+	text-align: left;
+}
+
+.test_img h4 {
+	font-weight: bold;
+}
+
+.test_img h6{
+	font-size: 15px;
+	color: #fcf6f8;
+	margin-bottom: 20px;
+}
+
+.test_img span h6{
+	font-size: 10px;
+	color: #ffdd99;
+	margin-bottom: 50px;
+}
+
+.b{
+	margin-bottom: 50px;
+}
+
+
+/*end testimonial*/
+
+
+
+
+
+
+
+/*start touch*/
+
+.touch {
+	text-align: center;
+	background: #3c5499;
+	color: white;
+	/*height: 100vh;*/
+}
+
+.touch h2{
+	font-weight: bold;
+	margin-top: 80px;
+}
+
+.touch p{
+	margin-bottom: 40px;
+}
+
+.touch h2 span{
+	color: #273a71;
+}
+
+
+
+.name { 
+	background: #273a71;
+	border: none;
+	width: 50%;
+	margin-left: 180px;
+	padding: 5px;
+}
+
+.email {
+	background: #273a71;
+	margin-right: 180px;
+	width: 50%;
+	border: none;
+	padding: 5px;
+}
+
+.message {
+	background: #273a71;
+	border: none;
+	width: 60%;
+	padding-right: 200px;
+	padding-bottom: 200px;
+	margin-top: 20px;
+}
+
+.touch button{
+	background: #30bae7;
+	border-radius: 2px;
+	border: none;
+	padding:10px 40px;
+	margin: 50px 0;
+	border-bottom: 5px solid #299ec5;
+}
+
+/*end touch*/
+
+
+
+
+
+/*start footer*/
+
+
+.footer {
+	background: #344b8e;
+	text-align: center;
+}
+
+.footer ul li{
+	margin-left: 60px;
+}
+
+/*end footer*/
+
+
+
+
+@media (max-width: 767px) { 
+	.logo{
+		transform: translate(30%);
+	}
+
+	.nav.nav-pills.navbar-right li a{
+		margin-top: 20px;
+		padding: 0 3px;
+		margin-left: 6px;
+		font-size: 12px;
+	}
+
+	.welcome h1{
+		margin-top: 50px;
+		font-size: 27px;
+	}
+
+	.service{
+		height: 1700px;
+	}
+
+	.service_img p {
+	    margin-top: 10px;
+	    font-size: 10px;
+	    margin-bottom: 10px;
+	}
+
+	.team{
+		height: auto;
+	}
+
+	.team_icon{
+		margin-bottom: 30px;
+	}
+
+	.port_lastbutton{
+		padding: 0px;
+	}
+
+	.test_img{
+		text-align: center;
+	}
+
+	.lo{
+		margin-bottom: 20px;
+	}
+
+	.name { 
+		width: 100%;
+		margin-left: 0px;
+		padding: 5px;
+		margin-bottom: 20px; 
+	}
+
+	.email {
+		background: #273a71;
+		margin-right: 0px;
+		width: 100%;
+		border: none;
+		padding: 5px;
+	}
+
+	.message {
+		background: #273a71;
+		border: none;
+		width: 100%;
+		padding-right: 200px;
+		padding-bottom: 200px;
+		margin-top: 20px;
+	}
+
+
+	.port_lastbutton button {
+		    padding: 7px 12px;
+	}
+
+	.nav li a{
+		margin-left: -50px;
+	}
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) 
+{ 
+	.welcome{
+		height: auto;
+	}
+
+	.menu{
+		margin-top: -30px;
+	}
+
+	.welcome h1{
+		margin-top: 80px;
+		font-size: 30px;
+	}
+
+	.service{
+		height: 1700px;
+		text-align: center;
+	}
+
+	.m{
+		transform: translate(90%);
+	}
+
+	.service_img p {
+	    margin-top: 10px;
+	    font-size: 10px;
+	    margin-bottom: 10px;
+	    text-align: center;
+	}
+
+	.team{
+		height: auto;
+	}
+
+	.n{
+		transform: translate(115%);
+	}
+
+	.team_icon{
+		margin-bottom: 30px;
+	}
+
+	.port_lastbutton{
+		padding: 0px;
+	}
+
+	.test_img{
+		text-align: center;
+	}
+
+	.v{
+		margin-left: 80px;
+	}
+
+	.lo{
+		margin-bottom: 20px;
+	}
+
+	.name { 
+		width: 100%;
+		margin-left: 0px;
+		padding: 5px;
+		margin-bottom: 20px; 
+	}
+
+	.email {
+		background: #273a71;
+		margin-right: 0px;
+		width: 100%;
+		border: none;
+		padding: 5px;
+	}
+
+	.message {
+		background: #273a71;
+		border: none;
+		width: 100%;
+		padding-right: 200px;
+		padding-bottom: 200px;
+		margin-top: 20px;
+	}
+
+
+ }
+
+ @media (min-width: 992px) and (max-width: 1024px) {
+ 	.v{
+ 		text-align: center;
+ 		margin-left: 230px;
+ 	}
+
+ 	.lo{
+ 		margin-left: -30px;
+ 	}
+
+ 	.nav>li>a {
+	    position: relative;
+	    display: block;
+	    padding: 10px 0px;
+	}
+ }
